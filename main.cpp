@@ -339,7 +339,7 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"seednode1.worldcoincore.com", "seednode2.worldcoincore.com", "seednode3.worldcoincore.com", "seednode4.worldcoincore.com", "seednode5.worldcoincore.com", "seednode6.worldcoincore.com", "wdc.theblocksfactory.com", "pool2b.d2.cc", ""};
+static const string mainnet_seeds[] = {"seednode3.worldcoin.global", "seednode2.worldcoin.global", ""};
 static const string testnet_seeds[] = {"54.186.69.238", ""};
 static const string *seeds = mainnet_seeds;
 
